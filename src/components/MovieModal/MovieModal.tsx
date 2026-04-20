@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import type { Movie } from '../../types/Movie';
+import type { Movie } from '../../Types/Movie';
 import css from './MovieModal.module.css';
 
 interface MovieModalProps {
@@ -11,7 +11,6 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
   useEffect(() => {
 
     document.body.style.overflow = 'hidden';
-
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.code === 'Escape') onClose();
