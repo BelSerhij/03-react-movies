@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import SearchBar from '../../SearchBar/SearchBar'
+import SearchBar from '../SearchBar/SearchBar'
 import MovieGrid from '../MovieGrid/MovieGrid'
 import { fetchMovies } from '../../Services/MovieService'
 import { Toaster } from 'react-hot-toast'
